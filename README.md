@@ -3,7 +3,7 @@
   <li>简介</li>使用Log Linear Model模型预测当前句子的词性序列
   <li><Linear Model模型/li>
     <ol>
-      <li>特征提取</li>对数据进行常见的特征提取（0，1编码）
+      <li>特征提取</li>对数据进行常见的特征提取（0，1编码）,与Linear Mdeol相同
       <li>权重学习</li>与Linear Model的不同主要是学习过程的不同
       <ul>
         <li>目标函数改变导致梯度不同，权重更新的公式不同</li>
@@ -17,6 +17,6 @@
     训练集：train.conll<br>
     测试集：dev.conll
     <li>代码</li>
-    log_linear_model.py:实现Linear Model模型进行词性标注
+    log_linear_model.py:实现Log Linear Model模型进行词性标注
   </ol>
 </ol>
